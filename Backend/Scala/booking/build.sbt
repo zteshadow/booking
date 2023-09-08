@@ -75,3 +75,12 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 
 // To learn more about multi-project builds, head over to the official sbt
 // documentation at http://www.scala-sbt.org/documentation.html
+
+// lazy val example = project.in(file("example"))
+//     .settings(
+//         scalaVersion := "3.2.2",
+//         libraryDependencies += "org.scala-lang" %% "toolkit" % "0.1.7"
+//         )
+
+libraryDependencies += "com.softwaremill.sttp.client4" %% "core" % "4.0.0-M1"
+libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.1.1"
